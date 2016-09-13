@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+
+namespace switchDemo
+{
+	class Program
+	{
+		enum Choices 
+		{
+			right,
+			left,
+			straight
+		}
+
+		static void Main(string[] args)
+
+		{
+			Choices bestChoices = Choices.straight;
+
+			switch (bestChoices) 
+			{
+				case Choices.right:
+					Console.WriteLine("you chose to go right");
+					break;
+				case Choices.left:
+					Console.WriteLine("you chose to go left");
+					break;
+				case Choices.straight:
+					Console.WriteLine("you chose to go straight");
+					break;
+				default:
+					Console.WriteLine("you must choose a direction");
+					break;
+			}
+		}
+		            
+	}
+}
