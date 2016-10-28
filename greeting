@@ -1,0 +1,28 @@
+namespace Greeting
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Your Name:");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("hello, " + name);
+
+            Console.WriteLine("How many hours of sleep did you get?");
+            int hoursOfSleep = int.Parse(Console.ReadLine());
+
+            if (hoursOfSleep > 8)
+            {
+                Console.WriteLine("you are well rested");
+            }
+            else
+            {
+                Console.WriteLine("you need to sleep more");
+            }
+
+            Console.ReadLine();
+        }
+    }
+
+}
