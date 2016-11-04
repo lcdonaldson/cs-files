@@ -20,7 +20,7 @@ namespace Greeting
             {
                 Console.WriteLine("you need to sleep more");
             }
-
+            // this is so you can read it as a console application
             Console.ReadLine();
         }
     }
