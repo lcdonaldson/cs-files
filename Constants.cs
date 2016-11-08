@@ -34,6 +34,7 @@ namespace ConstantsDemo
             {
                 Console.WriteLine("How about a nice nap?");
             }
+            // this is just for the console
             Console.ReadLine();
         }
     }
