@@ -8,7 +8,7 @@ namespace Async
     static void Main(string[] args)
     {
       var worker = new Worker();
-      Console.WriteLine();
+      Console.WriteLine(); 
     }
   }
   
@@ -23,7 +23,7 @@ namespace Async
     {
       AsyncClass asyncClass = new AsyncClass();
       asyncClass.Work();
-      Console.WriteLine("Im on the main thread");
+      Console.WriteLine("Im on the main thread"); // just for console demo
     }
   }
 }  
